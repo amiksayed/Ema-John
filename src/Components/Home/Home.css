@@ -1,0 +1,41 @@
+.home-container {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    align-items: center;
+}
+
+.home-contents {
+    margin-left: 120px;
+}
+
+.home-contents p {
+    color: #FF9900;
+    margin-bottom: 25px;
+}
+
+.home-contents h2 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.home-contents h3 {
+    margin: 0 0 50px 0;
+    color: #2A414F;
+    font-weight: 400;
+    font-size: 20px;
+}
+.shop-btn{
+    background-color: #FF9900;
+    color: white;
+    border-style: none;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.home-container img {
+    width: 60%;
+    margin-top: 90px;
+}

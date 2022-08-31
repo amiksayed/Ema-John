@@ -1,0 +1,17 @@
+header{
+    background-color: #1C2B35;
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    align-items: center;
+    padding: 15px 65px;
+}
+
+header a{
+    padding: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+header img{
+    width: 120px;
+}

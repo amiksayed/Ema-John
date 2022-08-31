@@ -1,0 +1,39 @@
+.cart h2 {
+    text-align: center;
+    margin: 30px 0 50px;
+}
+
+.cart-content {
+    margin: 0 15px;
+}
+
+.cart-content * {
+    margin-bottom: 10px;
+}
+
+.cart-content h3 {
+    margin-top: 10px;
+}
+
+.buttons {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-btn {
+    background-color: red;
+    padding: 10px 60px;
+    border: none;
+    color: white;
+    margin: 15px;
+}
+
+.review-btn {
+    background-color: rgb(0, 7, 36);
+    padding: 10px 60px;
+    margin: 0 15px;
+    border: none;
+    text-decoration: none;
+    color: white;
+}
