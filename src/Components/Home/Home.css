@@ -11,6 +11,7 @@
 .home-contents p {
     color: #FF9900;
     margin-bottom: 25px;
+    font-size: 18px;
 }
 
 .home-contents h2 {
@@ -24,7 +25,8 @@
     font-weight: 400;
     font-size: 20px;
 }
-.shop-btn{
+
+.shop-btn {
     background-color: #FF9900;
     color: white;
     border-style: none;
@@ -35,6 +37,11 @@
     font-weight: 500;
     cursor: pointer;
 }
+
+.shop-btn:hover {
+    background-color: #2A414F;
+}
+
 .home-container img {
     width: 60%;
     margin-top: 90px;

@@ -49,7 +49,7 @@ const Shop = () => {
                 </Cart>
             </div>
         </div >
-    );
+     );
 };
 
 export default Shop;

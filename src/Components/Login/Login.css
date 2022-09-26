@@ -1,0 +1,115 @@
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+.form-container {
+    border: 1px solid gray;
+    box-shadow: -8px 8px 4px #ff99008e;
+    margin-top: 5px;
+    width: 25%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.form-container h2 {
+    margin-bottom: 30px;
+    color: #1C2B35;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.form-container p {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 6px;
+}
+
+.form-container p a {
+    text-decoration: none;
+    color: #FF9900;
+    margin-left: 5px;
+}
+
+form {
+    width: 70%;
+}
+
+input {
+    width: 98%;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid rgb(176, 176, 176);
+    margin-top: 5px;
+    padding: 0;
+}
+
+.pass-err-msg {
+    color: red;
+}
+
+.login-btn {
+    background-color: #FF9900;
+    border-style: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    width: 99%;
+    height: 40px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #1C2B35;
+}
+
+.spinner {
+    color: #1C2B35;
+    margin-left: 125px;
+}
+
+.span-container {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    gap: 5px;
+    color: #b7b7b7;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.span-container span {
+    width: 100%;
+    height: 2px;
+    border-radius: 2px;
+    background-color: #b7b7b7;
+}
+
+.google-btn img {
+    width: 20px;
+}
+
+.google-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 70%;
+    height: 40px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border-style: none;
+    font-size: 14px;
+    background-color: #1C2B35;
+    color: white;
+    cursor: pointer;
+}

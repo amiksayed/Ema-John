@@ -36,7 +36,7 @@ const OrderReview = () => {
             </div>
             <div className='review-cart-container'>
                 <Cart cart={cart} clearCart={clearCart}>
-                    <Link to='/orderReview' className='review-btn'> Proceed Checkout</Link>
+                    <Link to='/shipment' className='review-btn'> Proceed Checkout</Link>
                 </Cart>
             </div>
 

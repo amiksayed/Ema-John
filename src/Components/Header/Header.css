@@ -1,4 +1,4 @@
-header{
+header {
     background-color: #1C2B35;
     display: grid;
     grid-template-columns: 4fr 2fr;
@@ -6,12 +6,29 @@ header{
     padding: 15px 65px;
 }
 
-header a{
+header i{
+    color: white;
+    font-size: 18px;
+    margin-left: 5px;
+}
+.link {
     padding: 0 10px;
     text-decoration: none;
     color: white;
     font-weight: 500;
+    font-size: 18px;
 }
-header img{
+
+.active-link {
+    background-color: #FF9900;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+header img {
     width: 120px;
 }
